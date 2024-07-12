@@ -1,0 +1,59 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para la sección del héroe */
+  .hero {
+    background-image: url('../../src/img/image-hero.jpg'); /* Reemplaza con la imagen de tu héroe */
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Ajusta la altura según tu diseño */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero__container {
+    max-width: 800px;
+  }
+  
+  .hero__title {
+    font-size: 48px; /* Ajusta el tamaño de la fuente */
+    margin-bottom: 20px;
+  }
+  
+  .hero__subtitle {
+    font-size: 20px; /* Ajusta el tamaño de la fuente */
+    margin-bottom: 40px;
+  }
+  
+  .hero__button {
+    background-color: #007bff; /* Color del botón */
+    color: white; /* Color del texto del botón */
+    padding: 15px 30px; /* Ajusta el relleno del botón */
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos para las demás secciones (replicar la estructura para cada sección) */
+  .about,
+  .courses,
+  .testimonials,
+  .cta {
+    background-color: #f5f5f5; /* Color de fondo de las secciones */
+    padding: 40px 0;
+  }
+  
+  .about__container,
+  .courses__container,
+  .testimonials__container,
+  .cta__container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }

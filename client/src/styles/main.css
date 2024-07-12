@@ -1,0 +1,79 @@
+/* Restablecer estilos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; /* FontFamily predeterminada */
+}
+  
+/* Cuerpo de la página */
+body {
+    background-color: #f0f0f0; /* Color de fondo */
+    font-size: 16px; /* Tamaño de fuente base */
+    line-height: 1.5; /* Altura de línea */
+}
+  
+/* Encabezado */
+header {
+    background-color: #fff; /* Color de fondo del encabezado */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+footer {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Sombra hacia arriba */
+}
+  
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin: 20px 0;
+}
+  
+/* Enlaces */
+a {
+    color: #007bff; /* Color de enlace */
+    text-decoration: none; /* Eliminar subrayado */
+}
+  
+/* Botones */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+  
+/* Formularios */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+  
+/* Textos largos */
+.text-area {
+    resize: vertical;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+  
+/* Contenedor principal */
+.main-container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px;
+}

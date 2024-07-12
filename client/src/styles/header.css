@@ -1,0 +1,27 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-header nav {
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+
+    .app-header, .app-header nav {
+        display: block;
+    }
+
+    .app-header nav > * {
+        display: block;
+        text-align: center;
+    }
+
+    .app-header h1 {
+        text-align: center;
+        margin: 0;
+    }
+}
